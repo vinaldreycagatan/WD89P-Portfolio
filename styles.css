@@ -1,0 +1,262 @@
+.topnav {
+    overflow: hidden;
+}
+
+.port-text {
+    color: black;
+}
+
+.folio-text {
+    color: #6123dc;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #6123dc;
+}
+
+.topnav a:hover {
+    color: black;
+}
+
+.topnav a.active {
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin: 5rem 0 0 15rem;
+}
+
+.menu-items {
+    float: right;
+    margin: 5.5rem 13rem 0 0;
+}
+
+.items{
+    padding: 0 2rem 0 0;
+}
+
+.page-first {
+    background-image: url(images/luffy-gear-5.jpg);
+    background-size: cover;
+    height: 708px;
+    margin: -8px -8px 0 -8px;
+    padding-top: 5rem;
+}
+
+.dev-name {
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 100px;
+    padding-top: 15rem;
+    color: #5e22d6;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.job-name {
+    margin-top: -7rem;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+}
+
+.front-end-text {
+    color: whitesmoke;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.page-second {
+    background-color: #5e22d6;
+    margin: -100px -16px 0 -16px;
+}
+
+.about-me-text {
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 80px;
+    padding-top: 3rem;
+    color: whitesmoke;
+}
+
+.words-text {
+    margin-top: -50px;
+    margin-left: 25%;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 24px;
+    padding-bottom: 50px;
+    width: 50%;
+    align-items: center;
+}
+
+.portfolio-text {
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 80px;
+    margin-top: 0px;
+    color: #6123dc;
+}
+
+.buttons-area {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.button-1, .button-2, .button-3 {
+    margin-top: -50px;
+    height: 350px;
+    width: 350px;
+    color: white;
+}
+
+.button-1 {
+    background-image: url(images/luffy-1.jpeg);
+}
+
+.button-2 {
+    background-image: url(images/luffy-2.jpeg);
+}
+
+.button-3 {
+    background-image: url(images/luffy-3.jpeg);
+}
+
+.see-more {
+    font-size: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding: 25px;
+    margin-left: 40%;
+    margin-top: 25px;
+    background-color: #5e22d6;
+    color:whitesmoke;
+    border-radius: 25px;
+}
+
+.contact-me-div {
+    background-color: #8657e4;
+    margin: -50px -10px 0 -10px;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.contact-text {
+    margin-left: 300px;
+    padding-top: 100px;
+    font-size: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.forms-div {
+    margin-top: -100px;
+    margin-left: 300px;
+    display: flex;
+    width: auto;
+}
+
+.contact-add {
+    width: 450px;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.forms-fields {
+    text-align: center;
+    width: 450px;
+}
+
+.small-box {
+    width: 392px;
+    height: 50px;
+    margin-bottom: 25px;
+    background-color: #5e22d6;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.big-box {
+    width: 392px;
+    height: 200px;
+    background-color: #5e22d6;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: whitesmoke;
+    vertical-align: text-top;
+}
+
+.download-button {
+    margin-top: 28px;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding: 18px;
+    background-color: #5e22d6;
+    color:whitesmoke;
+    border-radius: 25px;
+    width: 400px;
+}
+
+.submit-button {
+    margin-top: 28px;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding: 18px;
+    background-color: #5e22d6;
+    color:whitesmoke;
+    border-radius: 25px;
+    width: 300px;
+}
+
+.button-div {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.details-div {
+    margin-top: -25px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.details-text {
+    margin-top: 50px;
+}
+
+.email-icon {
+    height: 24px;
+}
+
+.fb-icon {
+    height: 60px;
+}
+
+.copyright-footer {
+    text-align: center;
+    margin: -50px -10px -50px -10px;
+}
+.copyright-text {
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding: 18px;
+    background-color: #5e22d6;
+    color:whitesmoke;
+}
