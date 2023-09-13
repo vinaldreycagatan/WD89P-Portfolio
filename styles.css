@@ -1,5 +1,25 @@
-.topnav {
-    overflow: hidden;
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: -16px 0 0 0;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-first {
+    margin: 0px;
+    background-image: url(images/luffy-gear-5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    padding: 100px 0 100px 0;
 }
 
 .port-text {
@@ -10,48 +30,37 @@
     color: #6123dc;
 }
 
-.topnav a {
-    float: left;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    font-family: 'Alfa Slab One', cursive;
-    color: #6123dc;
+.ul-area {
+    padding: 0 0 0 100px;
 }
 
-.topnav a:hover {
+.home-holder {
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.item-holder-1, .item-holder-2, .item-holder-3, .item-holder-4 {
+    font-size: 24px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #6123dc;
+    float: right;
+    display: inline;
+    margin: 0 100px 0 0;
+}
+
+.header-items:hover {
     color: black;
 }
 
-.topnav a.active {
-    font-size: 60px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    margin: 5rem 0 0 15rem;
-}
-
-.menu-items {
-    float: right;
-    margin: 5.5rem 13rem 0 0;
-}
-
-.items{
-    padding: 0 2rem 0 0;
-}
-
-.page-first {
-    background-image: url(images/luffy-gear-5.jpg);
-    background-size: cover;
-    height: 708px;
-    margin: -8px -8px 0 -8px;
-    padding-top: 5rem;
+.name-holder {
+    margin-top: 550px;
 }
 
 .dev-name {
+    margin: 0 0 0 0;
     text-align: center;
     font-family: 'Alfa Slab One', cursive;
     font-size: 100px;
-    padding-top: 15rem;
     color: #5e22d6;
     text-shadow:
     -1px -1px 0 #000,
@@ -61,7 +70,7 @@
 }
 
 .job-name {
-    margin-top: -7rem;
+    margin: 0 0 0 0;
     text-align: center;
     font-family: 'Alfa Slab One', cursive;
     font-size: 50px;
@@ -76,45 +85,61 @@
     1px 1px 0 #000;
 }
 
+/* ABOUT ME */
+
 .page-second {
+    padding: 50px 0 50px 0;
     background-color: #5e22d6;
-    margin: -100px -16px 0 -16px;
+    text-align: center;
+}
+
+.about-me-holder {
+    display: inline;
 }
 
 .about-me-text {
-    text-align: center;
     font-family: 'Alfa Slab One', cursive;
     font-size: 80px;
-    padding-top: 3rem;
     color: whitesmoke;
+    margin: 0px;
+}
+
+.words-text-holder {
+    text-align: center;
+    display: inline-block;
+    width: 50%;
 }
 
 .words-text {
-    margin-top: -50px;
-    margin-left: 25%;
-    text-align: center;
     font-family: 'Alfa Slab One', cursive;
     font-size: 24px;
-    padding-bottom: 50px;
-    width: 50%;
-    align-items: center;
+}
+
+/* MY PORTFOLIO */
+
+.portfolio-area {
+    margin: 0 0 0 0;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
+.portfolio-text-holder {
+    padding: 0 0 0 0;
 }
 
 .portfolio-text {
-    text-align: center;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
     font-family: 'Alfa Slab One', cursive;
     font-size: 80px;
-    margin-top: 0px;
     color: #6123dc;
 }
 
 .buttons-area {
-    text-align: center;
-    padding-bottom: 25px;
+    padding: 0 0 30px 0;
 }
 
 .button-1, .button-2, .button-3 {
-    margin-top: -50px;
     height: 350px;
     width: 350px;
     color: white;
@@ -137,34 +162,40 @@
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     padding: 25px;
-    margin-left: 40%;
-    margin-top: 25px;
     background-color: #5e22d6;
     color:whitesmoke;
     border-radius: 25px;
 }
 
+/* CONTACT ME */
+
 .contact-me-div {
     background-color: #8657e4;
-    margin: -50px -10px 0 -10px;
-    height: auto;
-    padding-bottom: 100px;
+    padding: 50px 0 50px 0;
+}
+
+.contact-text-holder {
+    text-align: center;
+    padding-bottom: 25px;
 }
 
 .contact-text {
-    margin-left: 300px;
-    padding-top: 100px;
+    margin: 0 0 0 0;
+    display: inline;
     font-size: 100px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     color: whitesmoke;
 }
 
+.outer-forms-div {
+    text-align: center;
+}
+
 .forms-div {
-    margin-top: -100px;
-    margin-left: 300px;
-    display: flex;
+    display: inline-flex;
     width: auto;
+    text-align: center;
 }
 
 .contact-add {
@@ -237,7 +268,7 @@
 }
 
 .details-text {
-    margin-top: 50px;
+    margin-top: 37px;
 }
 
 .email-icon {
@@ -248,16 +279,17 @@
     height: 60px;
 }
 
+/* COPYRIGHT */
+
 .copyright-footer {
     text-align: center;
-    margin: -50px -10px -50px -10px;
-    vertical-align: auto;
+    padding: 25px 0 20px 0;
+    background-color: #5e22d6;
 }
 .copyright-text {
+    margin: 0 0 0 0;
     font-size: 35px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
-    padding: 18px;
-    background-color: #5e22d6;
     color:whitesmoke;
 }

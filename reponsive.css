@@ -1,0 +1,309 @@
+
+@media only screen and (max-width: 280px){
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: -16px 0 0 0;
+    }
+    
+    li {
+        display: inline-block;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .page-first {
+        margin: 0px;
+        background-image: url(images/luffy-gear-5.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 340px;
+        padding: 25px 0 25px 0;
+    }
+    
+    .port-text {
+        color: black;
+    }
+    
+    .folio-text {
+        color: #6123dc;
+    }
+    
+    .topnav {
+        
+    }
+
+    .ul-area {
+        padding: 0;
+        margin: 35px 0 0 0;
+        text-align: center;
+    }
+    
+    .home-holder {
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        width: 100%;
+    }
+    
+    .item-holder-1, .item-holder-2, .item-holder-3, .item-holder-4 {
+        font-size: 12px;
+        font-family: 'Alfa Slab One', cursive;
+        color: #6123dc;
+        float: right;
+        display: inline;
+        margin: 0 10px 0 10px;
+    }
+
+    .item-holder-2 {
+        margin-right: 15px;
+    }
+    
+    .header-items:hover {
+        color: black;
+    }
+    
+    .name-holder {
+        margin-top: 180px;
+    }
+    
+    .dev-name {
+        margin: 0 0 0 0;
+        text-align: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 20px;
+        color: #5e22d6;
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+    
+    .job-name {
+        margin: 0 0 0 0;
+        text-align: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 12px;
+    }
+    
+    .front-end-text {
+        color: whitesmoke;
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+    
+    /* ABOUT ME */
+    
+    .page-second {
+        padding: 50px 0 50px 0;
+        background-color: #5e22d6;
+        text-align: center;
+    }
+    
+    .about-me-holder {
+        display: inline;
+    }
+    
+    .about-me-text {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 80px;
+        color: whitesmoke;
+        margin: 0px;
+    }
+    
+    .words-text-holder {
+        text-align: center;
+        display: inline-block;
+        width: 50%;
+    }
+    
+    .words-text {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 24px;
+    }
+    
+    /* MY PORTFOLIO */
+    
+    .portfolio-area {
+        margin: 0 0 0 0;
+        padding: 50px 0 50px 0;
+        text-align: center;
+    }
+    
+    .portfolio-text-holder {
+        padding: 0 0 0 0;
+    }
+    
+    .portfolio-text {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 80px;
+        color: #6123dc;
+    }
+    
+    .buttons-area {
+        padding: 0 0 30px 0;
+    }
+    
+    .button-1, .button-2, .button-3 {
+        height: 350px;
+        width: 350px;
+        color: white;
+    }
+    
+    .button-1 {
+        background-image: url(images/luffy-1.jpeg);
+    }
+    
+    .button-2 {
+        background-image: url(images/luffy-2.jpeg);
+    }
+    
+    .button-3 {
+        background-image: url(images/luffy-3.jpeg);
+    }
+    
+    .see-more {
+        font-size: 36px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        padding: 25px;
+        background-color: #5e22d6;
+        color:whitesmoke;
+        border-radius: 25px;
+    }
+    
+    /* CONTACT ME */
+    
+    .contact-me-div {
+        background-color: #8657e4;
+        padding: 50px 0 50px 0;
+    }
+    
+    .contact-text-holder {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    
+    .contact-text {
+        margin: 0 0 0 0;
+        display: inline;
+        font-size: 100px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        color: whitesmoke;
+    }
+    
+    .outer-forms-div {
+        text-align: center;
+    }
+    
+    .forms-div {
+        display: inline-flex;
+        width: auto;
+        text-align: center;
+    }
+    
+    .contact-add {
+        width: 450px;
+        font-size: 35px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+    }
+    
+    .forms-fields {
+        text-align: center;
+        width: 450px;
+    }
+    
+    .small-box {
+        width: 392px;
+        height: 50px;
+        margin-bottom: 25px;
+        background-color: #5e22d6;
+        font-size: 35px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        color: whitesmoke;
+    }
+    
+    .big-box {
+        width: 392px;
+        height: 200px;
+        background-color: #5e22d6;
+        font-size: 35px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        color: whitesmoke;
+        vertical-align: text-top;
+    }
+    
+    .download-button {
+        margin-top: 28px;
+        font-size: 35px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        padding: 18px;
+        background-color: #5e22d6;
+        color:whitesmoke;
+        border-radius: 25px;
+        width: 400px;
+    }
+    
+    .submit-button {
+        margin-top: 28px;
+        font-size: 35px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        padding: 18px;
+        background-color: #5e22d6;
+        color:whitesmoke;
+        border-radius: 25px;
+        width: 300px;
+    }
+    
+    .button-div {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .details-div {
+        margin-top: -25px;
+        margin-left: 30px;
+        text-align: left;
+    }
+    
+    .details-text {
+        margin-top: 37px;
+    }
+    
+    .email-icon {
+        height: 24px;
+    }
+    
+    .fb-icon {
+        height: 60px;
+    }
+    
+    /* COPYRIGHT */
+    
+    .copyright-footer {
+        text-align: center;
+        padding: 25px 0 20px 0;
+        background-color: #5e22d6;
+    }
+    .copyright-text {
+        margin: 0 0 0 0;
+        font-size: 35px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        color:whitesmoke;
+    }
+}
